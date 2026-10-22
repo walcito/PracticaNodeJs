@@ -3,4 +3,5 @@ import serverHandler from "./Routes/route.js";
 
 const server = http.createServer(serverHandler);
 
-server.listen(8080);
+const port = process.env.PORT || 8080;
+server.listen(port);
