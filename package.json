@@ -1,0 +1,16 @@
+{
+  "name": "practicanodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waldin Ceballos",
+  "license": "ISC",
+  "description": "Aplicacion web con Node.js que retorna 5 paginas",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
